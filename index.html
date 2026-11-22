@@ -3,203 +3,247 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PauseBite Gizlilik Politikası</title>
+<title>PauseBite Gizlilik Politikası / Privacy Policy</title>
 <style>
     :root {
-        --bg: #f5f7fb;
+        --bg: #f6f7f9;
         --card: #ffffff;
-        --text: #182238;
-        --muted: #61708a;
-        --primary: #5d7f9f;
-        --primary-dark: #365778;
-        --border: #dce6f1;
+        --text: #1f2933;
+        --muted: #52606d;
+        --accent: #2f5d8a;
+        --border: #e4e7eb;
     }
-
-    * {
-        box-sizing: border-box;
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: #0f1419;
+            --card: #1a2129;
+            --text: #e4e7eb;
+            --muted: #9aa5b1;
+            --accent: #8fb8e0;
+            --border: #2b3540;
+        }
     }
-
     body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        background-color: var(--bg);
+        color: var(--text);
         margin: 0;
         padding: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        line-height: 1.65;
-        background: linear-gradient(180deg, #fbfcff 0%, var(--bg) 100%);
-        color: var(--text);
     }
-
     .container {
-        max-width: 860px;
-        margin: 0 auto;
-        padding: 48px 20px;
-    }
-
-    .hero {
-        padding: 32px;
-        margin-bottom: 18px;
-        background: var(--card);
+        max-width: 760px;
+        margin: 24px auto;
+        padding: 24px 20px;
+        background-color: var(--card);
+        border-radius: 12px;
         border: 1px solid var(--border);
-        border-radius: 24px;
-        box-shadow: 0 18px 45px rgba(41, 57, 84, 0.10);
     }
-
-    .brand {
-        margin-bottom: 12px;
-        color: var(--primary-dark);
-        font-size: 14px;
-        font-weight: 800;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-    }
-
-    h1 {
-        margin: 0;
-        color: var(--text);
-        font-size: 42px;
-        line-height: 1.08;
-    }
-
-    .date {
-        margin-top: 16px;
-        color: var(--muted);
-    }
-
-    section {
-        margin-top: 14px;
-        padding: 24px;
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 18px;
-        box-shadow: 0 10px 28px rgba(41, 57, 84, 0.06);
-    }
-
-    h2 {
-        margin: 0 0 12px;
-        color: var(--primary-dark);
-        font-size: 21px;
-        line-height: 1.3;
-    }
-
-    p {
-        margin: 0 0 14px;
-        color: var(--muted);
-        font-size: 16px;
-    }
-
-    p:last-child {
-        margin-bottom: 0;
-    }
-
-    .note {
-        padding: 14px 16px;
-        background: #eef4fb;
-        border: 1px solid var(--border);
-        border-radius: 14px;
-        color: var(--primary-dark);
-    }
-
-    a {
-        color: var(--primary-dark);
-        font-weight: 700;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    footer {
-        margin-top: 24px;
-        color: var(--muted);
-        text-align: center;
-        font-size: 14px;
-    }
-
-    @media (max-width: 640px) {
-        .container {
-            padding: 28px 14px;
-        }
-
-        .hero,
-        section {
-            padding: 22px;
-            border-radius: 18px;
-        }
-
-        h1 {
-            font-size: 34px;
-        }
-
-        h2 {
-            font-size: 19px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-    }
+    h1 { color: var(--accent); margin: 0 0 8px; font-size: 1.6rem; }
+    h2 { color: var(--accent); margin: 28px 0 8px; font-size: 1.15rem; }
+    h3 { margin: 18px 0 6px; font-size: 1rem; }
+    p, li { margin: 0 0 10px; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .lang { margin: 8px 0 20px; font-size: 0.95rem; }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 40px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="container">
-    <header class="hero">
-        <div class="brand">PauseBite</div>
-        <h1>Gizlilik Politikası</h1>
-        <p class="date"><strong>Yürürlük Tarihi:</strong> Nisan 2026</p>
-    </header>
 
-    <section>
-        <h2>1. İşlenen Bilgiler</h2>
-        <p>PauseBite, kişiselleştirilmiş duygusal destek ve koçluk yanıtları sunmak için kullanıcı tarafından uygulama içinde yazılan mesajları, seçilen ruh hali bilgilerini, sohbet bağlamını, oturum bağlamını, dil bilgisini ve oturum kimliğini işleyebilir.</p>
-        <p>PauseBite; ad, soyad, e-posta adresi, telefon numarası veya hassas konum bilgisi gibi hesap bilgilerini kullanıcıdan zorunlu olarak istemez.</p>
-    </section>
+<!-- ===================== TÜRKÇE ===================== -->
+<section id="tr" lang="tr">
+<h1>PauseBite Gizlilik Politikası</h1>
+<p class="meta">Yürürlük tarihi: 22 Kasım 2026</p>
+<p class="lang"><a href="#en">English version below</a></p>
 
-    <section>
-        <h2>2. Bilgilerin Nasıl Toplandığı</h2>
-        <p>Bu bilgiler, kullanıcının uygulama içinde mesaj yazması, ruh hali seçmesi ve AI sohbet özelliğini kullanması sırasında elde edilir.</p>
-        <p class="note">Kullanıcı AI özelliğini kullanmadan önce veri paylaşımı hakkında bilgilendirilir ve onayı alınır.</p>
-    </section>
+<p>Bu politika, PauseBite mobil uygulamasının (“Uygulama”) hangi kişisel verileri topladığını, neden ve nasıl kullandığını, kimlerle paylaştığını ve bu veriler üzerindeki haklarını açıklar. Uygulamayı kullanarak bu politikada anlatılan işlemleri kabul etmiş olursun.</p>
 
-    <section>
-        <h2>3. Bilgilerin Kullanımı</h2>
-        <p>İşlenen bilgiler yalnızca AI destekli yanıtlar oluşturmak, kullanıcı deneyimini kişiselleştirmek, mevcut oturum akışını sürdürebilmek ve uygulama işlevlerini güvenli şekilde sunmak amacıyla kullanılır.</p>
-    </section>
+<h2>1. Veri sorumlusu ve iletişim</h2>
+<p>Uygulama bağımsız bir geliştirici tarafından sunulur. Gizlilikle ilgili tüm soruların ve taleplerin için: <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a></p>
 
-    <section>
-        <h2>4. Üçüncü Taraf AI Servisi ve Altyapı</h2>
-        <p>PauseBite, AI yanıtları oluşturmak için Google Gemini AI hizmetini kullanır. Bu kapsamda kullanıcının yazdığı mesajlar, seçilen ruh hali bilgileri, sohbet ve oturum bağlamı, dil bilgisi ve oturum kimliği Firebase altyapımız üzerinden güvenli şekilde Google Gemini AI ile paylaşılabilir.</p>
-        <p>Bu bilgiler, kullanıcının oturumu için AI yanıtı üretmek amacıyla işlenir.</p>
-    </section>
+<h2>2. Topladığımız veriler</h2>
+<h3>Hesap bilgileri</h3>
+<ul>
+    <li><strong>Misafir kullanım:</strong> Uygulama ilk açıldığında senin için anonim bir hesap kimliği oluşturulur. Ad veya e-posta istenmez.</li>
+    <li><strong>Kayıtlı hesap:</strong> E-posta adresin, (girersen) adın ve şifren (şifre bizde değil, Firebase Authentication tarafından güvenli biçimde saklanır). Google veya Apple ile giriş yaparsan bu hizmetlerin bize ilettiği e-posta adresi, ad ve hesap kimliği.</li>
+</ul>
+<h3>Uygulamaya kendin girdiğin bilgiler</h3>
+<ul>
+    <li>Ruh hali seçimlerin ve yeme isteğinin etkilenip etkilenmediği bilgisi (check-in’ler).</li>
+    <li>Duraklama oturumların, tamamladığın görevler, oyun skorları ve sonuç değerlendirmelerin (“geçti / azaldı / aynı”).</li>
+    <li>Yazılı görevlerde verdiğin cevaplar ve bunlardan oluşturulan yansımalar.</li>
+    <li>Kilo, boy, vücut ölçüleri ve bunlardan hesaplanan beden kitle indeksi (BKİ).</li>
+    <li>Başlangıçta verdiğin cevaplar: hedefin ve yaş aralığın.</li>
+    <li>Tercihlerin: dil, tema, bildirim ayarları.</li>
+</ul>
+<p>Ruh hali, yeme davranışı ve vücut ölçüleri sağlıkla ilgili, özel nitelikli kişisel veri sayılabilir. Bu bilgileri yalnızca sen girdiğinde ve yalnızca sana Uygulamanın özelliklerini (geçmiş, analizler, öneriler) sunmak için işleriz.</p>
+<h3>Yapay zekâ özellikleri</h3>
+<p>Yapay zekâ sohbetini veya yazılı görev özetini kullanmadan önce açık onayın istenir. Onay verirsen yazdığın mesajlar, seçtiğin ruh hali, sohbetin önceki mesajları ve dil tercihin yanıt üretmek için sunucumuz üzerinden Google Gemini API’sine gönderilir. Sohbet mesajların, sohbete devam edebilmen için hesabınla ilişkili olarak saklanır. Onay vermezsen yapay zekâya hiçbir şey gönderilmez; Uygulamanın geri kalanı çalışmaya devam eder.</p>
+<h3>Bildirimler</h3>
+<p>Bildirimlere izin verirsen cihazının bildirim belirteci (Firebase Cloud Messaging token) ve son kullanım zamanın, hatırlatma göndermek için saklanır.</p>
+<h3>Satın almalar</h3>
+<p>Ödemeler Apple App Store veya Google Play üzerinden yapılır; kart bilgilerin bize ulaşmaz. Abonelik durumunu doğrulamak için RevenueCat’e bir kullanıcı kimliği ve satın alma kayıtların iletilir.</p>
+<h3>Teknik ve kullanım verileri</h3>
+<ul>
+    <li><strong>Çökme raporları (Firebase Crashlytics):</strong> Çökme anındaki teknik bilgiler, cihaz modeli, işletim sistemi ve uygulama sürümü, anonim kullanıcı kimliği.</li>
+    <li><strong>Kullanım istatistikleri (Google Analytics for Firebase):</strong> Hangi ekranların açıldığı, hangi özelliklerin kullanıldığı gibi olaylar ve cihaz bilgileri. Yazdığın metinleri, yapay zekâ sohbetlerini, ruh hali kayıtlarını ve vücut ölçülerini analitik verisine eklemeyiz. Reklam kimliğini (IDFA/AAID) kullanmayız ve seni reklam amacıyla izlemeyiz.</li>
+    <li><strong>Uygulama doğrulaması (Firebase App Check):</strong> İsteklerin gerçek PauseBite uygulamasından geldiğini doğrulamak için Apple DeviceCheck ve Google Play Integrity kullanılır.</li>
+</ul>
 
-    <section>
-        <h2>5. Veri Satışı</h2>
-        <p>PauseBite kullanıcı verilerini satmaz.</p>
-    </section>
+<h2>3. Verileri ne için kullanıyoruz</h2>
+<ul>
+    <li>Uygulamanın özelliklerini sunmak: kayıtlarını saklamak, geçmişini ve analizlerini göstermek, sana uygun görevler önermek.</li>
+    <li>Kayıtlı hesabında verilerini cihazların arasında senkronize etmek ve yedeklemek.</li>
+    <li>Onay verdiğin yapay zekâ yanıtlarını üretmek.</li>
+    <li>İzin verdiğin hatırlatma bildirimlerini göndermek.</li>
+    <li>Aboneliğini doğrulamak ve premium özellikleri açmak.</li>
+    <li>Hataları bulup düzeltmek, güvenliği sağlamak ve kötüye kullanımı (ör. yapay zekâ kullanım sınırları) önlemek.</li>
+</ul>
+<p>Verilerini satmayız, reklam için kullanmayız ve reklam ağlarıyla paylaşmayız.</p>
 
-    <section>
-        <h2>6. Veri Saklama</h2>
-        <p>PauseBite, hesap oluşturma veya kalıcı profil bilgisi girme zorunluluğu getirmez. Uygulama içinde herhangi bir veri saklanıyorsa, bu veriler yalnızca uygulamanın çalışması, kullanıcı deneyiminin sürdürülmesi ve oturum geçmişinin yönetilmesi için kullanılır.</p>
-    </section>
+<h2>4. Verileri kimlerle paylaşıyoruz</h2>
+<table>
+    <tr><th>Hizmet</th><th>Amaç</th></tr>
+    <tr><td>Google Firebase (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Crashlytics, Analytics, App Check)</td><td>Hesap, veri saklama ve senkronizasyon, sunucu işlemleri, bildirimler, çökme raporları, kullanım istatistikleri, uygulama doğrulaması</td></tr>
+    <tr><td>Google Gemini API</td><td>Yalnızca onay verdiğinde yapay zekâ yanıtları. Ücretli API kapsamında Google, Gemini API koşulları gereği bu içerikleri ürünlerini geliştirmek için kullanmaz.</td></tr>
+    <tr><td>RevenueCat</td><td>Abonelik ve satın alma doğrulaması</td></tr>
+    <tr><td>Apple, Google</td><td>Ödemeler; “Apple ile Giriş” ve “Google ile Giriş”</td></tr>
+</table>
+<p>Bu hizmet sağlayıcılar verileri yalnızca bizim adımıza ve kendi gizlilik koşullarına uygun olarak işler. Yasal bir zorunluluk olduğunda yetkili makamlarla paylaşım yapılabilir.</p>
 
-    <section>
-        <h2>7. Kullanıcı Onayı</h2>
-        <p>Kullanıcı, PauseBite içindeki AI özelliklerini kullanmadan önce ilgili bilgilerin Firebase altyapımız üzerinden Google Gemini AI’ya gönderilebileceği ve AI yanıtları üretmek amacıyla işlenebileceği konusunda bilgilendirilir.</p>
-        <p class="note">Kullanıcı onay vermeden AI sohbet mesajı gönderilmez.</p>
-    </section>
+<h2>5. Verilerin saklandığı yer</h2>
+<p>Hesap verilerin ve kayıtların Google Cloud’un Avrupa Birliği bölgelerinde (Cloud Firestore: eur3, Cloud Functions: europe-west1) saklanır. Bazı hizmet sağlayıcılar (ör. Google Analytics, RevenueCat) verileri Türkiye ve AB dışında, örneğin ABD’de işleyebilir. Bu aktarımlar ilgili sağlayıcıların standart sözleşme hükümleri ve güvenlik önlemleri kapsamında yapılır.</p>
 
-    <section>
-        <h2>8. Gizlilik Politikasındaki Değişiklikler</h2>
-        <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. En güncel sürüm her zaman bu sayfada yer alacaktır.</p>
-    </section>
+<h2>6. Saklama süresi</h2>
+<ul>
+    <li>Hesabınla ilişkili veriler, hesabını silene kadar saklanır.</li>
+    <li>Misafir kullanımda veriler öncelikle cihazında tutulur; Uygulamayı silmek cihazdaki verileri de siler.</li>
+    <li>Çökme raporları ve kullanım istatistikleri, Firebase’in saklama ayarlarına göre sınırlı bir süre tutulur.</li>
+    <li>Satın alma kayıtları, yasal yükümlülükler nedeniyle Apple, Google ve RevenueCat tarafından ayrıca saklanabilir.</li>
+</ul>
 
-    <section>
-        <h2>9. İletişim</h2>
-        <p>Gizlilik politikası hakkında her türlü soru, öneri veya destek talebi için bizimle iletişime geçebilirsiniz: <a href="mailto:cbsezerr@gmail.com">cbsezerr@gmail.com</a></p>
-    </section>
+<h2>7. Hesabını ve verilerini silme</h2>
+<p>Kayıtlı hesabını Uygulama içinden silebilirsin: <strong>Profil → Ayarlar → Hesap → Hesabı Sil</strong>. Bu işlem hesabını ve sunucudaki tüm kayıtlarını (check-in’ler, oturumlar, yansımalar, vücut ölçüleri, yapay zekâ sohbetleri, bildirim ve kullanım kayıtları) kalıcı olarak siler ve cihazdaki verileri temizler. İşlem geri alınamaz. Hesap silmek aboneliği iptal etmez; aboneliğini App Store veya Google Play ayarlarından iptal etmelisin.</p>
+<p>Uygulamaya erişemiyorsan veya misafir verilerinin silinmesini istiyorsan <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a> adresine yazabilirsin.</p>
 
-    <footer>
-        © 2026 PauseBite
-    </footer>
+<h2>8. Hakların</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve geçerli olduğu durumlarda AB Genel Veri Koruma Tüzüğü (GDPR) kapsamında; verilerinin işlenip işlenmediğini öğrenme, bilgi ve kopya talep etme, düzeltilmesini veya silinmesini isteme, işlemeye itiraz etme, verdiğin onayı geri alma ve şikâyette bulunma (Türkiye’de Kişisel Verileri Koruma Kurumu’na) haklarına sahipsin. Taleplerini <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a> adresine iletebilirsin; en geç 30 gün içinde yanıtlarız.</p>
+<p>Yapay zekâ onayını, bildirim iznini ve diğer izinleri cihaz ayarlarından veya Uygulama içinden istediğin zaman geri alabilirsin.</p>
+
+<h2>9. Yaş sınırı</h2>
+<p>Uygulama 18 yaş ve üzerindeki kullanıcılar için tasarlanmıştır. 18 yaşından küçüklerden bilerek veri toplamayız; böyle bir durumu fark edersek ilgili verileri sileriz.</p>
+
+<h2>10. Güvenlik</h2>
+<p>Veriler aktarım sırasında şifrelenir (TLS). Sunucudaki her kayıt yalnızca kendi hesabının erişebileceği şekilde güvenlik kurallarıyla korunur. Hiçbir sistem tamamen risksiz değildir; bir güvenlik ihlali olursa yasaların öngördüğü şekilde bildirimde bulunuruz.</p>
+
+<h2>11. Sağlık uyarısı</h2>
+<p>PauseBite tıbbi bir hizmet değildir; teşhis veya tedavi sunmaz. Yapay zekâ yanıtları profesyonel destek yerine geçmez. Kendine zarar verme düşüncen varsa veya acil bir durumdaysan bulunduğun ülkedeki acil yardım numarasını ara (Türkiye’de 112).</p>
+
+<h2>12. Değişiklikler</h2>
+<p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde yürürlük tarihini güncelleriz ve gerektiğinde Uygulama içinde bildiririz. En güncel sürüm her zaman bu sayfadadır.</p>
+</section>
+
+<hr>
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="en" lang="en">
+<h1>PauseBite Privacy Policy</h1>
+<p class="meta">Effective date: November 22, 2026</p>
+<p class="lang"><a href="#tr">Türkçe sürüm yukarıda</a></p>
+
+<p>This policy explains what personal data the PauseBite mobile app (the “App”) collects, why and how it is used, who it is shared with, and the rights you have over it. By using the App you accept the processing described here.</p>
+
+<h2>1. Controller and contact</h2>
+<p>The App is provided by an independent developer. For any privacy question or request: <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a></p>
+
+<h2>2. Data we collect</h2>
+<h3>Account data</h3>
+<ul>
+    <li><strong>Guest use:</strong> when you first open the App, an anonymous account ID is created for you. No name or email is required.</li>
+    <li><strong>Registered account:</strong> your email address, your name (if you enter it) and your password (stored securely by Firebase Authentication, not by us). If you sign in with Google or Apple, the email address, name and account ID those services share with us.</li>
+</ul>
+<h3>Information you enter</h3>
+<ul>
+    <li>Your mood selections and whether a feeling affects your urge to eat (check-ins).</li>
+    <li>Your pause sessions, completed tasks, game scores and outcome ratings (“passed / reduced / same”).</li>
+    <li>Your answers in writing tasks and the reflections created from them.</li>
+    <li>Weight, height, body measurements and the body mass index (BMI) calculated from them.</li>
+    <li>Your onboarding answers: your goal and age range.</li>
+    <li>Your preferences: language, theme and notification settings.</li>
+</ul>
+<p>Mood, eating behaviour and body measurements may count as health-related, special-category personal data. We process them only when you enter them, and only to provide the App’s features to you (history, insights, suggestions).</p>
+<h3>AI features</h3>
+<p>Before you use the AI chat or the AI summary of a writing task, you are asked for explicit consent. If you agree, your messages, selected mood, earlier messages in the conversation and your language are sent through our server to the Google Gemini API to generate a reply. Chat messages are stored with your account so you can continue a conversation. If you do not agree, nothing is sent to the AI and the rest of the App keeps working.</p>
+<h3>Notifications</h3>
+<p>If you allow notifications, your device’s notification token (Firebase Cloud Messaging) and your last activity time are stored to send reminders.</p>
+<h3>Purchases</h3>
+<p>Payments are processed by the Apple App Store or Google Play; we never receive your card details. A user ID and your purchase records are shared with RevenueCat to verify your subscription.</p>
+<h3>Technical and usage data</h3>
+<ul>
+    <li><strong>Crash reports (Firebase Crashlytics):</strong> technical details at the time of a crash, device model, operating system, app version and an anonymous user ID.</li>
+    <li><strong>Usage statistics (Google Analytics for Firebase):</strong> events such as which screens are opened and which features are used, and device information. We do not include your written text, AI conversations, mood records or body measurements in analytics. We do not use the advertising ID (IDFA/AAID) and do not track you for advertising.</li>
+    <li><strong>App verification (Firebase App Check):</strong> Apple DeviceCheck and Google Play Integrity are used to verify that requests come from the genuine PauseBite app.</li>
+</ul>
+
+<h2>3. How we use data</h2>
+<ul>
+    <li>To provide the App: store your records, show your history and insights, suggest suitable tasks.</li>
+    <li>To sync and back up your data across devices for registered accounts.</li>
+    <li>To generate AI replies you consented to.</li>
+    <li>To send reminders you allowed.</li>
+    <li>To verify your subscription and unlock premium features.</li>
+    <li>To find and fix errors, keep the service secure and prevent abuse (for example AI usage limits).</li>
+</ul>
+<p>We do not sell your data, use it for advertising, or share it with ad networks.</p>
+
+<h2>4. Who we share data with</h2>
+<table>
+    <tr><th>Service</th><th>Purpose</th></tr>
+    <tr><td>Google Firebase (Authentication, Cloud Firestore, Cloud Functions, Cloud Messaging, Crashlytics, Analytics, App Check)</td><td>Accounts, storage and sync, server processing, notifications, crash reports, usage statistics, app verification</td></tr>
+    <tr><td>Google Gemini API</td><td>AI replies, only with your consent. Under the paid API, Google’s Gemini API terms state that this content is not used to improve Google’s products.</td></tr>
+    <tr><td>RevenueCat</td><td>Subscription and purchase verification</td></tr>
+    <tr><td>Apple, Google</td><td>Payments; Sign in with Apple and Sign in with Google</td></tr>
+</table>
+<p>These providers process data only on our behalf and under their own privacy terms. Data may be disclosed to authorities where required by law.</p>
+
+<h2>5. Where data is stored</h2>
+<p>Your account data and records are stored in Google Cloud regions in the European Union (Cloud Firestore: eur3, Cloud Functions: europe-west1). Some providers (for example Google Analytics and RevenueCat) may process data outside Türkiye and the EU, such as in the United States, under their standard contractual clauses and safeguards.</p>
+
+<h2>6. Retention</h2>
+<ul>
+    <li>Data linked to your account is kept until you delete your account.</li>
+    <li>For guest use, data is kept mainly on your device; deleting the App also deletes it from the device.</li>
+    <li>Crash reports and usage statistics are kept for a limited period under Firebase’s retention settings.</li>
+    <li>Purchase records may be kept separately by Apple, Google and RevenueCat for legal reasons.</li>
+</ul>
+
+<h2>7. Deleting your account and data</h2>
+<p>You can delete a registered account inside the App: <strong>Profile → Settings → Account → Delete Account</strong>. This permanently deletes your account and all your records on our servers (check-ins, sessions, reflections, body measurements, AI conversations, notification and usage records) and clears the data on your device. It cannot be undone. Deleting your account does not cancel a subscription; cancel it in your App Store or Google Play settings.</p>
+<p>If you cannot access the App, or want guest data deleted, email <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a>.</p>
+
+<h2>8. Your rights</h2>
+<p>Under Türkiye’s Personal Data Protection Law No. 6698 (KVKK) and, where it applies, the EU General Data Protection Regulation (GDPR), you have the right to know whether your data is processed, to request information and a copy, to have it corrected or deleted, to object to processing, to withdraw consent, and to complain to a supervisory authority (in Türkiye, the Personal Data Protection Authority). Send requests to <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a>; we reply within 30 days.</p>
+<p>You can withdraw AI consent, notification permission and other permissions at any time in your device settings or in the App.</p>
+
+<h2>9. Age requirement</h2>
+<p>The App is intended for users aged 18 and over. We do not knowingly collect data from anyone under 18; if we learn that we have, we delete it.</p>
+
+<h2>10. Security</h2>
+<p>Data is encrypted in transit (TLS). Security rules ensure that each record on our servers can be accessed only by its own account. No system is completely risk-free; if a breach occurs we will notify you as required by law.</p>
+
+<h2>11. Health notice</h2>
+<p>PauseBite is not a medical service and does not provide diagnosis or treatment. AI replies are not a substitute for professional support. If you are thinking about harming yourself or are in an emergency, call your local emergency number.</p>
+
+<h2>12. Changes</h2>
+<p>We may update this policy from time to time. For significant changes we update the effective date and, where appropriate, notify you in the App. The current version is always on this page.</p>
+</section>
+
 </div>
 </body>
 </html>

@@ -3,15 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PauseBite Destek</title>
+<title>PauseBite Destek / Support</title>
 <style>
-body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-a { color: #0073e6; text-decoration: none; font-weight: bold; }
+    :root {
+        --bg: #f6f7f9;
+        --card: #ffffff;
+        --text: #1f2933;
+        --muted: #52606d;
+        --accent: #2f5d8a;
+        --border: #e4e7eb;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: #0f1419;
+            --card: #1a2129;
+            --text: #e4e7eb;
+            --muted: #9aa5b1;
+            --accent: #8fb8e0;
+            --border: #2b3540;
+        }
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        background-color: var(--bg);
+        color: var(--text);
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 760px;
+        margin: 24px auto;
+        padding: 24px 20px;
+        background-color: var(--card);
+        border-radius: 12px;
+        border: 1px solid var(--border);
+    }
+    h1 { color: var(--accent); margin: 0 0 8px; font-size: 1.6rem; }
+    h2 { color: var(--accent); margin: 28px 0 8px; font-size: 1.15rem; }
+    h3 { margin: 18px 0 6px; font-size: 1rem; }
+    p, li { margin: 0 0 10px; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .lang { margin: 8px 0 20px; font-size: 0.95rem; }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 40px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 600; }
 </style>
 </head>
 <body>
+<div class="container">
+
+<section id="tr" lang="tr">
 <h1>PauseBite Destek</h1>
-<p>Her türlü soru ve geri bildirim için bize e-posta atabilirsiniz:</p>
-<p><a href="mailto:cbsezerr@gmail.com">cbsezerr@gmail.com</a></p>
+<p class="lang"><a href="#en">English below</a></p>
+
+<p>Sorunu, önerini veya geri bildirimini bize yazabilirsin: <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a>. Genellikle birkaç iş günü içinde yanıt veririz. Bir hata bildiriyorsan cihaz modelini, işletim sistemi sürümünü ve ne yaptığında oluştuğunu yazman çözmemizi hızlandırır.</p>
+
+<h2>Sık sorulanlar</h2>
+
+<h3>Aboneliğimi nasıl iptal ederim?</h3>
+<p>Abonelikler App Store veya Google Play üzerinden yönetilir. iPhone’da <strong>Ayarlar → [adın] → Abonelikler</strong>, Android’de <strong>Google Play → Profil → Ödemeler ve abonelikler → Abonelikler</strong> yolunu izle. Uygulamayı ya da hesabını silmek aboneliği iptal etmez.</p>
+
+<h3>Satın aldığım Premium görünmüyor</h3>
+<p>Satın alırken kullandığın hesapla giriş yaptığından emin ol, sonra Premium ekranında <strong>Satın almaları geri yükle</strong>’ye dokun. Sorun sürerse makbuzundaki sipariş numarasıyla bize yaz.</p>
+
+<h3>Yapay zekâ neden yanıt vermiyor?</h3>
+<p>Yapay zekâ özelliğinin günlük ve aylık kullanım sınırları vardır. Aylık sınır her ayın 1’inde yenilenir. İnternet bağlantını da kontrol et. Yapay zekâ yanıtları profesyonel destek yerine geçmez.</p>
+
+<h3>Verilerim cihaz değiştirince kaybolur mu?</h3>
+<p>Misafir olarak kullanıyorsan verilerin yalnızca o cihazda durur. Kayıtlı bir hesapla giriş yaparsan verilerin hesabına eşitlenir ve yeni cihazda aynı hesapla giriş yaptığında geri gelir.</p>
+
+<h3>Hesabımı ve verilerimi nasıl silerim?</h3>
+<p>Uygulamada <strong>Profil → Ayarlar → Hesap → Hesabı Sil</strong>. Bu işlem hesabını ve sunucudaki tüm kayıtlarını kalıcı olarak siler; geri alınamaz. Uygulamaya erişemiyorsan bize e-posta ile yazabilirsin.</p>
+
+<h3>Gizlilik</h3>
+<p>Hangi verileri neden işlediğimizi <a href="./">Gizlilik Politikası</a>’nda bulabilirsin.</p>
+
+<h2>Acil durum</h2>
+<p>PauseBite tıbbi bir hizmet değildir. Kendine zarar verme düşüncen varsa veya acil bir durumdaysan bulunduğun ülkedeki acil yardım numarasını ara (Türkiye’de 112).</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>PauseBite Support</h1>
+
+<p>Send us your question, suggestion or feedback at <a href="mailto:itspausebite@gmail.com">itspausebite@gmail.com</a>. We usually reply within a few business days. If you are reporting a bug, include your device model, OS version and what you were doing when it happened.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>How do I cancel my subscription?</h3>
+<p>Subscriptions are managed by the App Store or Google Play. On iPhone go to <strong>Settings → [your name] → Subscriptions</strong>; on Android open <strong>Google Play → Profile → Payments &amp; subscriptions → Subscriptions</strong>. Deleting the app or your account does not cancel a subscription.</p>
+
+<h3>My Premium purchase is missing</h3>
+<p>Make sure you are signed in with the account you used to buy it, then tap <strong>Restore purchases</strong> on the Premium screen. If it still does not appear, email us with the order number from your receipt.</p>
+
+<h3>Why is the AI not replying?</h3>
+<p>The AI feature has daily and monthly usage limits. The monthly limit resets on the 1st of each month. Also check your internet connection. AI replies are not a substitute for professional support.</p>
+
+<h3>Will I lose my data if I change devices?</h3>
+<p>As a guest, your data stays on that device only. With a registered account your data syncs to your account and comes back when you sign in on a new device.</p>
+
+<h3>How do I delete my account and data?</h3>
+<p>In the app: <strong>Profile → Settings → Account → Delete Account</strong>. This permanently deletes your account and all your records on our servers and cannot be undone. If you cannot access the app, email us.</p>
+
+<h3>Privacy</h3>
+<p>See the <a href="./">Privacy Policy</a> for what data we process and why.</p>
+
+<h2>Emergencies</h2>
+<p>PauseBite is not a medical service. If you are thinking about harming yourself or are in an emergency, call your local emergency number.</p>
+</section>
+
+</div>
 </body>
 </html>
